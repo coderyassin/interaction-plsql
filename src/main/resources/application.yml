@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: interaction-plsql
+
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@//localhost:1521/ORCLPDB
+    username: HR_TEST
+    password: YassMel97
+
+  jpa:
+    database-platform: org.hibernate.dialect.OracleDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
