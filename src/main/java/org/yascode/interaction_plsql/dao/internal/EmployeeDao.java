@@ -3,7 +3,7 @@ package org.yascode.interaction_plsql.dao.internal;
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.dialect.OracleTypes;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 import org.yascode.interaction_plsql.dao.IEmployeeDao;
 import org.yascode.interaction_plsql.entity.Employee;
 
@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@Service
+@Repository
 @Slf4j
 public class EmployeeDao implements IEmployeeDao {
     private static final String PKG_EMPLOYEE = "EMPLOYEE_PKG";
