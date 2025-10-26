@@ -51,6 +51,6 @@ public class InteractionPlsqlApplication implements CommandLineRunner {
 		//List<Employee> employees = employeeDao.employeesByDepartment(50L);
 		//jobRepository.addJob("DR_AM", "Director of Administration", BigDecimal.valueOf(30000L), BigDecimal.valueOf(50000L));}
 		//jobProcedureRepository.getJob("DR_AM");
-		employeeInfoRepository.findAll();
+		//employeeInfoRepository.findAll();
 	}
 }

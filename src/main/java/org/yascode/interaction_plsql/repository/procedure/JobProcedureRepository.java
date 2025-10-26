@@ -7,4 +7,6 @@ import java.util.Optional;
 public interface JobProcedureRepository {
 
     Optional<Job> getJob(String jobId);
+
+    Job getJobById(String jobId);
 }
