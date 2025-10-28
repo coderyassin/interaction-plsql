@@ -24,4 +24,5 @@ public class CustomEvent extends ApplicationEvent {
     public String getMessage() {
         return this.message;
     }
+
 }

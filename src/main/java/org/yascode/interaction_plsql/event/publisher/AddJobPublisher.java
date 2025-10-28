@@ -24,4 +24,9 @@ public class AddJobPublisher {
 
         eventPublisher.publishEvent(new JobEvent(this, Clock.systemDefaultZone(), job));
     }
+
+    /* **************************************************************
+     * Publisher should be transactional (Transactional)             *
+     * Listener should be transactional (TransactionalEventListener) *
+     * ***************************************************************/
 }
